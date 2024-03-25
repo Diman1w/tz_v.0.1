@@ -26,4 +26,6 @@ public class StudentRestController {
         studentService.saveOrUpdateStudent(ObjectMapperUtils.map(studentDTO, Student.class));
         return new ResponseEntity("Student added successfully", HttpStatus.OK);
     }
+
+
 }
